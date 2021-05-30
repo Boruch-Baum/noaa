@@ -1,3 +1,14 @@
+This is a fork of https://github.com/thomp/noaa, with many improvements (ie upstream PR [#5](https://github.com/thomp/noaa/pull/5). The original README follows this list of improvements:
+
+* Updated to work with Emacs 27.
+* Fix bugs related to requirements and obsolete functions
+* Use <kbd>C-u M-x noaa</kbd> to ask for a location by name or to be explicitly prompted for coordinates.
+* New commands and keybindings
+  * switch from hourly forecasts back to daily
+  * change location
+* Add informative header line
+* Make buffers read-only
+
 # noaa.el
 
 *View a simple summary of an NOAA weather forecast*
